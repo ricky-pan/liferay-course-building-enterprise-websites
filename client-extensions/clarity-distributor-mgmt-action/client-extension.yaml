@@ -3,7 +3,7 @@ assemble:
 clarity-distributor-mgmt-action-oauth-application-user-agent:
     .serviceAddress: localhost:58081
     .serviceScheme: http
-    name: Liferay Clarity Etc Spring Boot OAuth Application User Agent
+    name: Clarity Distributor Mgmt Action OAuth Application User Agent
     scopes:
         - Liferay.Headless.Admin.User.everything
         - Liferay.Headless.Admin.Workflow.everything
