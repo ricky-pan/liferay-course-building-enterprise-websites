@@ -1,23 +1,19 @@
 # Building Enterprise Websites with Liferay
 
-## Enablement Bootcamp Prerequisite
-
-Please review the course prerequisites [here](https://www.liferay.com/pt/web/events/enablement-bootcamp-prerequisites).
-
 ## Setting up environments
 
-Here are some simple instructions to prepare your environment before the training starts.
+Here are some instructions to prepare your environment to start your local Liferay environment.
 
 1. Clone the repository to your computer.
 
     ```
-    git clone https://github.com/liferay/enablement-bootcamp-clarity.git
+    git clone https://github.com/liferay/liferay-course-building-enterprise-websites.git
     ```
 
     Once cloned, navigate into the project's folder.
 
     ```
-    cd enablement-bootcamp-clarity
+    cd liferay-course-building-enterprise-websites
     ```
 
 1. Perform a git fetch, a day before the training starts, to ensure you have the latest version.
@@ -26,22 +22,22 @@ Here are some simple instructions to prepare your environment before the trainin
     git fetch origin
     ```
 
-1. Checkout the main branch.
+1. Checkout the master branch.
 
     ```
-    git checkout main
+    git checkout master
     ```
 
-1. To ensure you have the most recent content for main branch, run the following command.
+1. To ensure you have the most recent content for master branch, run the following command.
 
     ```
-    git pull origin main
+    git pull origin master
     ```
 
 1. In the terminal, navigate to the root folder of the repository and run the following command.
 
     ```
-    cd enablement-bootcamp-clarity
+    cd liferay-course-building-enterprise-websites
     ```
 
     ```
@@ -77,8 +73,4 @@ Now, a clean Liferay environment should have started.
 
 Once logged in, access the Control Panel &rarr; Search &rarr; Index Actions &rarr; Execute Full Reindex.
 
-And voilà! You're ready to dive into the bootcamp!
-
-<!-- If you get curious and take a look at the repository, you'll notice it contains several branches named `exercise-xy`, being xy the exercise’s number. Those have been created to help you in case you get lost or need to go back to an earlier activity in the training. If that does happen, you can just follow the instructions previously described for the branch/exercise you need. -->
-
-
+And voilà! You're ready to dive into the course!
